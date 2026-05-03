@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400&family=Inter:wght@400;500;600&family=JetBrains+Mono&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-canvas: #f5f5f5;
+  --color-canvas-soft: #fafafa;
+  --color-canvas-white: #ffffff;
+  --color-ink: #0c0a09;
+  --color-primary: #0c0a09;
+  --color-primary-hover: #292524;
+  --color-hairline: #e7e5e4;
+  --color-muted: #777169;
+  --color-body: #4e4e4e;
+
+  --color-cohere-green: #003c33;
+  --color-cohere-navy: #071829;
+  --color-cohere-coral: #ff7759;
+  --color-cohere-coral-soft: #ffad9b;
+  --color-cohere-soft-stone: #eeece7;
+
+  --color-orb-mint: #a7e5d3;
+  --color-orb-peach: #f4c5a8;
+  --color-orb-lavender: #c8b8e0;
+  --color-orb-sky: #a8c8e8;
+  --color-orb-rose: #e8b8c4;
+
+  --color-block-lime: #daf4b5;
+  --color-block-lilac: #cabff8;
+  --color-block-navy: #1f1f2e;
+  --color-block-cream: #faecdb;
+  --color-block-mint: #c6e6cf;
+  --color-block-pink: #f2ccd3;
+  --color-block-coral: #facdb9;
+
+  --font-display: "EB Garamond", serif;
+  --font-heading: "EB Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --radius-pill: 9999px;
+  --radius-xl: 16px;
+  --radius-xxl: 22px;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
